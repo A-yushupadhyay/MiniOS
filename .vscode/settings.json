@@ -1,0 +1,15 @@
+{
+  "makefile.buildDirectory": "${workspaceFolder}/build",
+  "makefile.launchConfigurations": [
+    {
+      "name": "MiniOS Build",
+      "binaryPath": "${workspaceFolder}/build/main.exe"
+    }
+  ],
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/include"
+  ],
+  "C_Cpp.default.compilerPath": "g++",  // You can provide full path if needed
+  "C_Cpp.default.intelliSenseMode": "gcc-x64"
+}
